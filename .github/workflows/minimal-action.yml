@@ -4,7 +4,7 @@ on:
     - cron:  '0-59 * * * *'
   workflow_dispatch:
 jobs:
-  "Print Hello World":
+  "hello_world_job":
     name: A greeting job
     runs-on: ubuntu-latest
     steps:
